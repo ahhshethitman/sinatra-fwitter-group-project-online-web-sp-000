@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 <p> Here are your games, <%= @user.username %>
 <% @user.games.each do |game| %>
   <div>
     <%= game.content %>
+=======
+<p> Here are your tweets, <%= @user.username %>
+<% @user.tweets.each do |tweet| %>
+  <div>
+    <%= tweet.content %>
+>>>>>>> 80a72eeacd9d76be5eb4821172e7354f5253333a
   </div>
 <% end %>

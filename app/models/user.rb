@@ -1,6 +1,10 @@
 
 class User < ActiveRecord::Base
+<<<<<<< HEAD
   has_many  :games
+=======
+  has_many  :tweets
+>>>>>>> 80a72eeacd9d76be5eb4821172e7354f5253333a
 
 
   has_secure_password
